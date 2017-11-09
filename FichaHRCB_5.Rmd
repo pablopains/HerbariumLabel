@@ -1,0 +1,208 @@
+<html>
+<head>
+<title>fichas</title>
+<style type="text/css">
+body{
+		margin-top: 0px;
+		margin-right: 0px;
+		margin-bottom: 0px;
+		margin-left: 0px;
+		font: 12px arial, sans-serif;
+		border: none;
+	}</style>
+</head>
+
+<body>
+
+<table border='0' width='100%'>
+  <!-- Ficha 1-->
+  <tr width='100%'>
+  <td> 
+  <hr style="border-color:#000;border:'1';margin-top: 0px; margin-bottom: 0px;" >
+  
+  <table width='100%'>
+   <tr><td align='center'><b>`r fichas$f1$nomeherbario`  -  </b>`r fichas$f1$instituicao`</td></tr>
+   <tr><td><hr style="border-color:#000;border:'1';margin-top: 0px; margin-bottom: 0px;" ></td></tr>
+   <tr><td align='center'><b>`r fichas$f1$projeto`</b></td></tr>
+  </table>
+   
+ <table width='100%'>
+   <tr>
+   <td width='50%' align='left'><b>`r fichas$f1$familia`</b></td>
+   <td width='50%' align='right'><b>`r fichas$f1$siglaherbario`- `r fichas$f1$numerotombo`</b></td>
+   </tr>
+   <tr>
+   <td width='50%' align='left'>`r fichas$f1$especieformatada`</td>
+   <td width='50%' align='right'>`r fichas$f1$determinador` `r fichas$f1$datadet`</td>
+   </tr>
+   <tr>
+   <td width='50%' align='left'><sup><b>Coletor:</b></sup> `r fichas$f1$coletorformatado`</td>
+   <td width='50%' align='right'><sup><b>Data:</b></sup> `r fichas$f1$datacoleta`</td>
+   </tr>
+  </table>
+  
+  <table width='100%'>
+   <tr><td align='left'><sup><b>Localização: </b></sup>`r fichas$f1$localizacao`</td></tr>
+   <tr><td align='justify'>`r fichas$f1$localidade`</td></tr>
+   <tr><td align='justify'><sup><b>Notas: </b></sup> `r fichas$f1$notas`. `r fichas$f1$obs`</td></tr>
+   <tr><td align='left'><sup><b>Duplicatas: </b></sup> (<b>`r fichas$f1$numeroduplicatas`</b>) `r fichas$f1$duplicatasherbarios`</td></tr>
+  </table>
+  <hr style="border-color:#000;border:'1';margin-top: 0px; margin-bottom: 0px;" >
+  </td>
+  </tr>
+
+  <!--Espaço entre Fichas-->
+  <tr width='100%'><td><br></td></tr>
+
+  <!-- Ficha 2-->
+  <tr width='100%'>
+  <td> 
+  <hr style="border-color:#000;border:'1';margin-top: 0px; margin-bottom: 0px;" >
+  <table width='100%'>
+   <tr><td align='center'><b>`r fichas$f2$nomeherbario`  -  </b>`r fichas$f2$instituicao`</td></tr>
+   <tr><td><hr style="border-color:#000;border:'1';margin-top: 0px; margin-bottom: 0px;" ></td></tr>
+   <tr><td align='center'><b>`r fichas$f2$projeto`</b></td></tr>
+  </table>
+   
+ <table width='100%'>
+   <tr>
+   <td width='50%' align='left'><b>`r fichas$f2$familia`</b></td>
+   <td width='50%' align='right'><b>`r fichas$f2$siglaherbario`- `r fichas$f2$numerotombo`</b></td>
+   </tr>
+   <tr>
+   <td width='50%' align='left'>`r fichas$f2$especieformatada`</td>
+   <td width='50%' align='right'>`r fichas$f2$determinador` `r fichas$f2$datadet`</td>
+   </tr>
+   <tr>
+   <td width='50%' align='left'><sup><b>Coletor:</b></sup> `r fichas$f2$coletorformatado`</td>
+   <td width='50%' align='right'><sup><b>Data:</b></sup> `r fichas$f2$datacoleta`</td>
+   </tr>
+  </table>
+  
+  <table width='100%'>
+   <tr><td align='left'><sup><b>Localização: </b></sup>`r fichas$f2$localizacao`</td></tr>
+   <tr><td align='justify'>`r fichas$f2$localidade`</td></tr>
+   <tr><td align='justify'><sup><b>Notas: </b></sup> `r fichas$f2$notas`. `r fichas$f2$obs`</td></tr>
+   <tr><td align='left'><sup><b>Duplicatas: </b></sup> (<b>`r fichas$f2$numeroduplicatas`</b>) `r fichas$f2$duplicatasherbarios`</td></tr>
+  </table>
+  <hr style="border-color:#000;border:'1';margin-top: 0px; margin-bottom: 0px;" >
+  </td>
+  </tr>
+
+  <!--Espaço entre Fichas-->
+  <tr width='100%'><td><br></td></tr>
+
+  <!-- Ficha 3-->
+  <tr width='100%'>
+  <td> 
+  <hr style="border-color:#000;border:'1';margin-top: 0px; margin-bottom: 0px;" >
+  <table width='100%'>
+   <tr><td align='center'><b>`r fichas$f3$nomeherbario`  -  </b>`r fichas$f3$instituicao`</td></tr>
+   <tr><td><hr style="border-color:#000;border:'1';margin-top: 0px; margin-bottom: 0px;" ></td></tr>
+   <tr><td align='center'><b>`r fichas$f3$projeto`</b></td></tr>
+  </table>
+   
+ <table width='100%'>
+   <tr>
+   <td width='50%' align='left'><b>`r fichas$f3$familia`</b></td>
+   <td width='50%' align='right'><b>`r fichas$f3$siglaherbario`- `r fichas$f3$numerotombo`</b></td>
+   </tr>
+   <tr>
+   <td width='50%' align='left'>`r fichas$f3$especieformatada`</td>
+   <td width='50%' align='right'>`r fichas$f3$determinador` `r fichas$f3$datadet`</td>
+   </tr>
+   <tr>
+   <td width='50%' align='left'><sup><b>Coletor:</b></sup> `r fichas$f3$coletorformatado`</td>
+   <td width='50%' align='right'><sup><b>Data:</b></sup> `r fichas$f3$datacoleta`</td>
+   </tr>
+  </table>
+  
+  <table width='100%'>
+   <tr><td align='left'><sup><b>Localização: </b></sup>`r fichas$f3$localizacao`</td></tr>
+   <tr><td align='justify'>`r fichas$f3$localidade`</td></tr>
+   <tr><td align='justify'><sup><b>Notas: </b></sup> `r fichas$f3$notas`. `r fichas$f3$obs`</td></tr>
+   <tr><td align='left'><sup><b>Duplicatas: </b></sup> (<b>`r fichas$f3$numeroduplicatas`</b>) `r fichas$f3$duplicatasherbarios`</td></tr>
+  </table>
+  <hr style="border-color:#000;border:'1';margin-top: 0px; margin-bottom: 0px;" >
+  </td>
+  </tr>
+
+  <!--Espaço entre Fichas-->
+  <tr width='100%'><td><br></td></tr>
+
+  <!-- Ficha 4-->
+  <tr width='100%'>
+  <td> 
+  <hr style="border-color:#000;border:'1';margin-top: 0px; margin-bottom: 0px;" >
+  <table width='100%'>
+   <tr><td align='center'><b>`r fichas$f4$nomeherbario`  -  </b>`r fichas$f4$instituicao`</td></tr>
+   <tr><td><hr style="border-color:#000;border:'1';margin-top: 0px; margin-bottom: 0px;" ></td></tr>
+   <tr><td align='center'><b>`r fichas$f4$projeto`</b></td></tr>
+  </table>
+   
+ <table width='100%'>
+   <tr>
+   <td width='50%' align='left'><b>`r fichas$f4$familia`</b></td>
+   <td width='50%' align='right'><b>`r fichas$f4$siglaherbario`- `r fichas$f4$numerotombo`</b></td>
+   </tr>
+   <tr>
+   <td width='50%' align='left'>`r fichas$f4$especieformatada`</td>
+   <td width='50%' align='right'>`r fichas$f4$determinador` `r fichas$f4$datadet`</td>
+   </tr>
+   <tr>
+   <td width='50%' align='left'><sup><b>Coletor:</b></sup> `r fichas$f4$coletorformatado`</td>
+   <td width='50%' align='right'><sup><b>Data:</b></sup> `r fichas$f4$datacoleta`</td>
+   </tr>
+  </table>
+  
+  <table width='100%'>
+   <tr><td align='left'><sup><b>Localização: </b></sup>`r fichas$f4$localizacao`</td></tr>
+   <tr><td align='justify'>`r fichas$f4$localidade`</td></tr>
+   <tr><td align='justify'><sup><b>Notas: </b></sup> `r fichas$f4$notas`. `r fichas$f4$obs`</td></tr>
+   <tr><td align='left'><sup><b>Duplicatas: </b></sup> (<b>`r fichas$f4$numeroduplicatas`</b>) `r fichas$f4$duplicatasherbarios`</td></tr>
+  </table>
+  <hr style="border-color:#000;border:'1';margin-top: 0px; margin-bottom: 0px;" >
+  </td>
+  </tr>
+
+  <!--Espaço entre Fichas-->
+  <tr width='100%'><td><br></td></tr>
+
+  <!-- Ficha 5-->
+  <tr width='100%'>
+  <td> 
+  <hr style="border-color:#000;border:'1';margin-top: 0px; margin-bottom: 0px;" >
+  <table width='100%'>
+   <tr><td align='center'><b>`r fichas$f5$nomeherbario`  -  </b>`r fichas$f5$instituicao`</td></tr>
+   <tr><td><hr style="border-color:#000;border:'1';margin-top: 0px; margin-bottom: 0px;" ></td></tr>
+   <tr><td align='center'><b>`r fichas$f5$projeto`</b></td></tr>
+  </table>
+   
+ <table width='100%'>
+   <tr>
+   <td width='50%' align='left'><b>`r fichas$f5$familia`</b></td>
+   <td width='50%' align='right'><b>`r fichas$f5$siglaherbario`- `r fichas$f5$numerotombo`</b></td>
+   </tr>
+   <tr>
+   <td width='50%' align='left'>`r fichas$f5$especieformatada`</td>
+   <td width='50%' align='right'>`r fichas$f5$determinador` `r fichas$f5$datadet`</td>
+   </tr>
+   <tr>
+   <td width='50%' align='left'><sup><b>Coletor:</b></sup> `r fichas$f5$coletorformatado`</td>
+   <td width='50%' align='right'><sup><b>Data:</b></sup> `r fichas$f5$datacoleta`</td>
+   </tr>
+  </table>
+  
+  <table width='100%'>
+   <tr><td align='left'><sup><b>Localização: </b></sup>`r fichas$f5$localizacao`</td></tr>
+   <tr><td align='justify'>`r fichas$f5$localidade`</td></tr>
+   <tr><td align='justify'><sup><b>Notas: </b></sup> `r fichas$f5$notas`. `r fichas$f5$obs`</td></tr>
+   <tr><td align='left'><sup><b>Duplicatas: </b></sup> (<b>`r fichas$f5$numeroduplicatas`</b>) `r fichas$f5$duplicatasherbarios`</td></tr>
+  </table>
+  <hr style="border-color:#000;border:'1';margin-top: 0px; margin-bottom: 0px;" >
+  </td>
+  </tr>
+</table>
+</body>
+</html>
+<div style="page-break-after: always"></div>
